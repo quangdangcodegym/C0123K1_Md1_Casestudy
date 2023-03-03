@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    padding: 5px;
+}
+.form-group{
+    display: flex;
+    margin: 4px 0px;
+}
+.form-group label{
+    width: 100px;
+}
+.form-control{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 7px;
+}
+.btn{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+.btn-warning{
+    background-color: orange;
+    color: white;
+}
+.products table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.thead-dark > tr > th{
+    background-color: black;
+    padding: 10px 0px;
+    color: white;
+}
+table td{
+    padding: 5px 2px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.tbody-product > tr:nth-child(odd){
+    background-color: lightgray;
+}
+.tbody-product > tr:hover{
+    background-color: darkgray;
+}
+.products{
+    background-color: white;
+}
+.btn-danger{
+    background-color: red;
+}
+.btn-dark{
+    background-color: black;
+    color: white;
+}
+.tfoot > tr > th{
+    background-color: gray;
+    color: white;
+    padding: 10px 0px;
+}
+.row{
+    display: flex;
+}
+.col-9{
+    width: 75%;
+}
+.col-3{
+    width: 25%;
+}
